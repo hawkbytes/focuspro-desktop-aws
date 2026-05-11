@@ -1,0 +1,74 @@
+# Large files
+output/
+data/
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+*.json.log
+flask_start.log
+query_log.json
+
+# Runtime data
+logs.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screen recordings and sensitive user data
+Screen-Recordings/
+
+# Backup files
+*-backup*
+*backup*
+*-v1.*
+*-v2.*
+*(1)*
+*.bak
+*.tmp
+*.temp
